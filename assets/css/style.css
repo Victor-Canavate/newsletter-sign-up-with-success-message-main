@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+    --tomato: hsl(4, 100%, 67%);
+
+    /* Neutral */
+
+    --darkSlateGrey: hsl(234, 29%, 20%);
+    --charcoalGrey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Font */
+
+    --fontFamily: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fontFamily);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-desktop {
+    display: none;
+}
+
+.presentation {
+    margin-left: 20px;
+}
+
+.presentation h1 {
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+.presentation h2 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.benefits {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+}
+
+.benefits li {
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 85%;
+}
+
+.li-img {
+    margin-right: 25px;
+}
+
+.subscribe {
+    margin-left: 20px;
+    width: 95%;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form div {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.subscribe-form label {
+    font-weight: bolder;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form span {
+    font-size: 12px;
+    color: var(--tomato);
+    margin-bottom: 10px;
+}
+
+.subscribe-form input {
+    width: 95%;
+    padding: 19px;
+    border-radius: 10px;
+    border: 2px solid var(--grey)
+}
+
+.subscribe-form input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.subscribe-form input::placeholder {
+    color: var(--grey);
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.subscribe-form button {
+    margin-top: 20px;
+    width: 96%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--white);
+    background-color: var(--darkSlateGrey);
+}
+
+
+.subscribe-successful {
+    display: none;
+}
