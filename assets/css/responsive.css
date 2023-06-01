@@ -1,0 +1,68 @@
+@media screen and (width: 1440px) {
+    
+.illustration-mobile {
+    display: none;
+}
+
+.illustration-desktop {
+    display: flex;
+}
+
+body {
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    margin-top: 20vh;
+    padding: 30px;
+    border-radius: 45px;  
+}
+
+.presentation h1 {
+    font-size: 60px;
+}
+
+.presentation h2 {
+    font-size: 22px;
+    width: 90%;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.benefits {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.benefits li {
+    font-size: 22px;
+}
+
+.subscribe-form label {
+    font-size: 20px;
+}
+
+.subscribe-form span {
+    font-size: 20px;
+}
+
+.subscribe-form input {
+    padding: 25px;
+}
+
+.subscribe-form input::placeholder {
+    font-size: 20px;
+}
+
+.subscribe-form button {
+    font-size: 20px;
+    padding: 27px;
+}
+
+}
